@@ -1,0 +1,60 @@
+2020-06-07 16:28:33,047 - 读取配置文件配置 ->application.properties
+2020-06-07 16:28:33,064 - 开始加载bean,basePackage->org.example
+2020-06-07 16:28:33,332 - Reflections took 136 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 16:28:33,378 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-06-07 16:28:33,381 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-06-07 16:28:33,383 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-06-07 16:28:33,386 - 开始自动注入流程。。。
+2020-06-07 16:28:33,400 - Reflections took 12 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 16:28:33,405 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-06-07 16:28:33,407 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-06-07 16:28:33,413 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-06-07 16:28:33,413 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-06-07 16:28:33,414 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-06-07 16:28:33,414 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-06-07 16:28:33,415 - bean ->org.example.config.BaseConfigService 加载成功
+2020-06-07 16:28:33,472 - bean ->org.example.server.HttpHandler 加载成功
+2020-06-07 16:28:33,472 - bean ->StartService 加载成功
+2020-06-07 16:28:38,762 - 服务启动成功：端口->8080
+2020-06-07 16:38:30,241 - 读取配置文件配置 ->application.properties
+2020-06-07 16:38:30,244 - 开始加载bean,basePackage->org.example
+2020-06-07 16:38:30,543 - Reflections took 188 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 16:38:30,596 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-06-07 16:38:30,598 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-06-07 16:38:30,600 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-06-07 16:39:36,314 - 读取配置文件配置 ->application.properties
+2020-06-07 16:39:36,317 - 开始加载bean,basePackage->org.example
+2020-06-07 16:39:36,560 - Reflections took 153 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 16:39:36,606 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-06-07 16:39:36,608 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-06-07 16:39:36,609 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-06-07 16:39:36,612 - 开始自动注入流程。。。
+2020-06-07 16:39:36,626 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 16:39:36,634 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-06-07 16:39:36,636 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-06-07 16:39:36,642 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-06-07 16:39:36,643 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-06-07 16:39:36,643 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-06-07 16:39:36,644 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-06-07 16:39:36,645 - bean ->org.example.config.BaseConfigService 加载成功
+2020-06-07 16:39:36,702 - bean ->org.example.server.HttpHandler 加载成功
+2020-06-07 16:39:36,702 - bean ->StartService 加载成功
+2020-06-07 16:39:41,942 - 服务启动成功：端口->8080
+2020-06-07 17:09:39,519 - 读取配置文件配置 ->application.properties
+2020-06-07 17:09:39,525 - 开始加载bean,basePackage->org.example
+2020-06-07 17:09:39,786 - Reflections took 166 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 17:09:39,834 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-06-07 17:09:39,836 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-06-07 17:09:39,838 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-06-07 17:09:39,841 - 开始自动注入流程。。。
+2020-06-07 17:09:39,857 - Reflections took 16 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-06-07 17:09:39,860 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-06-07 17:09:39,862 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-06-07 17:09:39,867 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-06-07 17:09:39,867 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-06-07 17:09:39,868 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-06-07 17:09:39,869 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-06-07 17:09:39,870 - bean ->org.example.config.BaseConfigService 加载成功
+2020-06-07 17:09:39,924 - bean ->org.example.server.HttpHandler 加载成功
+2020-06-07 17:09:39,924 - bean ->StartService 加载成功
+2020-06-07 17:09:45,205 - 服务启动成功：端口->8080

@@ -1,0 +1,1245 @@
+2020-05-14 09:30:23,408 - 服务启动中。。。
+2020-05-14 09:30:23,414 - 开始加载bean,basePackage->org.example
+2020-05-14 09:30:23,675 - Reflections took 198 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 09:30:23,716 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 09:30:23,719 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 09:30:23,721 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 09:30:23,722 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 09:30:23,723 - 开始自动注入流程。。。
+2020-05-14 09:30:23,734 - Reflections took 10 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 09:30:23,737 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 09:30:23,740 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 09:30:23,744 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 09:30:23,744 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 09:30:23,744 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 09:30:23,790 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 09:30:23,790 - bean ->StartService 加载成功
+2020-05-14 09:30:24,989 - 服务启动成功：端口->8080
+2020-05-14 09:38:02,770 - initChannel ch:[id: 0xb279f09d, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:50777]
+2020-05-14 09:38:02,770 - initChannel ch:[id: 0xd60c628a, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:50778]
+2020-05-14 09:38:02,880 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 56344070-0001-46b5-b2b5-fa6d1d888d82, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 60, Connection: keep-alive], bodyJson={
+	"code":{
+		"test":1,
+		"name":[1,2]
+	},
+	"msg":"测试"
+}, queryParamsMap={name=[1]}, formParamsMap={})
+2020-05-14 10:38:42,649 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 5ed38774-9c67-44ca-93ab-e8dcd19c5e25, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 60, Connection: keep-alive], bodyJson={
+	"code":{
+		"test":1,
+		"name":[1,2]
+	},
+	"msg":"测试"
+}, queryParamsMap={name=[1]}, formParamsMap={})
+2020-05-14 10:43:58,626 - 服务启动中。。。
+2020-05-14 10:43:58,633 - 开始加载bean,basePackage->org.example
+2020-05-14 10:43:58,872 - Reflections took 165 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 10:43:58,919 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 10:43:58,922 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 10:43:58,923 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 10:43:58,924 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 10:43:58,926 - 开始自动注入流程。。。
+2020-05-14 10:43:58,939 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 10:43:58,943 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 10:43:58,945 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 10:43:58,948 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 10:43:58,949 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 10:43:58,949 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 10:43:58,998 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 10:43:58,999 - bean ->StartService 加载成功
+2020-05-14 10:43:59,172 - 服务启动成功：端口->8080
+2020-05-14 11:24:55,912 - 服务启动中。。。
+2020-05-14 11:24:55,918 - 开始加载bean,basePackage->org.example
+2020-05-14 11:24:56,126 - Reflections took 132 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:24:56,167 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:24:56,170 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:24:56,171 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:24:56,172 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:24:56,174 - 开始自动注入流程。。。
+2020-05-14 11:24:56,187 - Reflections took 13 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:24:56,190 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:24:56,192 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:24:56,197 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:24:56,197 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:24:56,197 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:24:56,243 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:24:56,243 - bean ->StartService 加载成功
+2020-05-14 11:24:56,488 - 服务启动成功：端口->8080
+2020-05-14 11:25:05,302 - 服务启动中。。。
+2020-05-14 11:25:05,309 - 开始加载bean,basePackage->org.example
+2020-05-14 11:25:05,654 - Reflections took 254 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:25:05,704 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:25:05,707 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:25:05,709 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:25:05,710 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:25:05,714 - 开始自动注入流程。。。
+2020-05-14 11:25:05,733 - Reflections took 17 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:25:05,749 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:25:05,752 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:25:05,766 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:25:05,766 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:25:05,766 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:25:05,894 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:25:05,894 - bean ->StartService 加载成功
+2020-05-14 11:25:06,242 - 服务启动成功：端口->8080
+2020-05-14 11:37:35,225 - 服务启动中。。。
+2020-05-14 11:37:35,236 - 开始加载bean,basePackage->org.example
+2020-05-14 11:37:35,513 - Reflections took 184 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:37:35,559 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:37:35,561 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:37:35,566 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:37:35,568 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:37:35,570 - 开始自动注入流程。。。
+2020-05-14 11:37:35,587 - Reflections took 16 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:37:35,592 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:37:35,594 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:37:35,605 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:37:35,605 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:37:35,605 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:37:35,665 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:37:35,666 - bean ->StartService 加载成功
+2020-05-14 11:37:35,936 - 服务启动成功：端口->8080
+2020-05-14 11:37:42,051 - initChannel ch:[id: 0x9764eca3, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52353]
+2020-05-14 11:37:42,051 - initChannel ch:[id: 0xde67d83a, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52354]
+2020-05-14 11:39:05,206 - 服务启动中。。。
+2020-05-14 11:39:05,211 - 开始加载bean,basePackage->org.example
+2020-05-14 11:39:05,439 - Reflections took 159 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:39:05,494 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:39:05,497 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:39:05,498 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:39:05,499 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:39:05,501 - 开始自动注入流程。。。
+2020-05-14 11:39:05,514 - Reflections took 11 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:39:05,517 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:39:05,519 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:39:05,523 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:39:05,524 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:39:05,524 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:39:05,571 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:39:05,572 - bean ->StartService 加载成功
+2020-05-14 11:39:05,768 - 服务启动成功：端口->8080
+2020-05-14 11:39:08,705 - initChannel ch:[id: 0xad277d71, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52369]
+2020-05-14 11:39:08,705 - initChannel ch:[id: 0x4b591bbe, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52370]
+2020-05-14 11:39:08,791 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: b2135572-fd2f-4e77-b619-2f873ba24140, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={}, formParamsMap={})
+2020-05-14 11:39:08,828 - 请求出错 ->java.lang.IllegalStateException: unsupported protocol: 'localhost'
+2020-05-14 11:39:42,961 - 服务启动中。。。
+2020-05-14 11:39:42,965 - 开始加载bean,basePackage->org.example
+2020-05-14 11:39:43,271 - Reflections took 199 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:39:43,317 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:39:43,319 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:39:43,321 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:39:43,322 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:39:43,324 - 开始自动注入流程。。。
+2020-05-14 11:39:43,335 - Reflections took 10 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:39:43,339 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:39:43,340 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:39:43,346 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:39:43,346 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:39:43,346 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:39:43,393 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:39:43,393 - bean ->StartService 加载成功
+2020-05-14 11:39:43,548 - 服务启动成功：端口->8080
+2020-05-14 11:39:47,095 - initChannel ch:[id: 0x4731abba, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52380]
+2020-05-14 11:39:47,095 - initChannel ch:[id: 0xf2524f02, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52381]
+2020-05-14 11:39:47,181 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: dafe435f-f410-4b58-acc1-593bfec3a3ba, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={}, formParamsMap={})
+2020-05-14 11:40:07,135 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 1c5ec8c1-e1a3-4a1a-95b4-ae6badf818fd, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={}, formParamsMap={})
+2020-05-14 11:41:24,994 - 服务启动中。。。
+2020-05-14 11:41:25,015 - 开始加载bean,basePackage->org.example
+2020-05-14 11:41:25,473 - Reflections took 257 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:41:25,562 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:41:25,568 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:41:25,571 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:41:25,574 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:41:25,580 - 开始自动注入流程。。。
+2020-05-14 11:41:25,605 - Reflections took 23 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:41:25,614 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:41:25,627 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:41:25,661 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:41:25,662 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:41:25,662 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:41:25,807 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:41:25,808 - bean ->StartService 加载成功
+2020-05-14 11:41:26,226 - 服务启动成功：端口->8080
+2020-05-14 11:41:29,303 - initChannel ch:[id: 0x8d3f6dc8, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52406]
+2020-05-14 11:41:29,303 - initChannel ch:[id: 0x48244f56, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52407]
+2020-05-14 11:41:29,462 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 72ea33cf-6f4d-42fb-9f7b-d889fef43d25, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={}, formParamsMap={})
+2020-05-14 11:43:50,570 - 服务启动中。。。
+2020-05-14 11:43:50,576 - 开始加载bean,basePackage->org.example
+2020-05-14 11:43:50,847 - Reflections took 182 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:43:50,903 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:43:50,906 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:43:50,908 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:43:50,908 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:43:50,910 - 开始自动注入流程。。。
+2020-05-14 11:43:50,923 - Reflections took 11 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:43:50,928 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:43:50,932 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:43:50,937 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:43:50,937 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:43:50,938 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:43:50,987 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:43:50,988 - bean ->StartService 加载成功
+2020-05-14 11:43:51,337 - 服务启动成功：端口->8080
+2020-05-14 11:44:09,494 - initChannel ch:[id: 0x8ffd57b5, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52431]
+2020-05-14 11:44:09,494 - initChannel ch:[id: 0xfce43c06, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52432]
+2020-05-14 11:44:09,597 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 3fcea4ad-ad96-43a3-9d00-9b6b75b03f23, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 11:44:53,358 - 服务启动中。。。
+2020-05-14 11:44:53,363 - 开始加载bean,basePackage->org.example
+2020-05-14 11:44:53,580 - Reflections took 135 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:44:53,620 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:44:53,622 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:44:53,623 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:44:53,624 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:44:53,625 - 开始自动注入流程。。。
+2020-05-14 11:44:53,638 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:44:53,642 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:44:53,644 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:44:53,648 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:44:53,648 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:44:53,648 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:44:53,694 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:44:53,694 - bean ->StartService 加载成功
+2020-05-14 11:44:53,874 - 服务启动成功：端口->8080
+2020-05-14 11:44:56,440 - initChannel ch:[id: 0x2254d61d, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52442]
+2020-05-14 11:44:56,440 - initChannel ch:[id: 0x9e0a126f, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52441]
+2020-05-14 11:44:56,523 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: a011d466-0840-43d0-b861-f248857dec18, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 11:45:51,396 - 服务启动中。。。
+2020-05-14 11:45:51,405 - 开始加载bean,basePackage->org.example
+2020-05-14 11:45:51,685 - Reflections took 197 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:45:51,773 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:45:51,776 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:45:51,784 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:45:51,785 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:45:51,789 - 开始自动注入流程。。。
+2020-05-14 11:45:51,816 - Reflections took 21 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:45:51,820 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:45:51,822 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:45:51,826 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:45:51,827 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:45:51,827 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:45:51,972 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:45:51,974 - bean ->StartService 加载成功
+2020-05-14 11:45:52,367 - 服务启动成功：端口->8080
+2020-05-14 11:45:55,772 - 服务启动中。。。
+2020-05-14 11:45:55,792 - 开始加载bean,basePackage->org.example
+2020-05-14 11:45:56,191 - Reflections took 272 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:45:56,333 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:45:56,338 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:45:56,340 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:45:56,345 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:45:56,353 - 开始自动注入流程。。。
+2020-05-14 11:45:56,373 - Reflections took 18 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:45:56,404 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:45:56,408 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:45:56,420 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:45:56,421 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:45:56,421 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:45:56,504 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:45:56,505 - bean ->StartService 加载成功
+2020-05-14 11:45:56,773 - 服务启动成功：端口->8080
+2020-05-14 11:45:59,163 - initChannel ch:[id: 0x9534d55b, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52460]
+2020-05-14 11:45:59,163 - initChannel ch:[id: 0xc1299497, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52461]
+2020-05-14 11:45:59,294 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 6686b79f-24b5-484c-87af-d7c7caab4ebd, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 11:47:00,796 - 服务启动中。。。
+2020-05-14 11:47:00,811 - 开始加载bean,basePackage->org.example
+2020-05-14 11:47:01,064 - Reflections took 163 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:47:01,120 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:47:01,124 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:47:01,126 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:47:01,128 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:47:01,132 - 开始自动注入流程。。。
+2020-05-14 11:47:01,148 - Reflections took 16 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:47:01,157 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:47:01,164 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:47:01,170 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:47:01,170 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:47:01,170 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:47:01,249 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:47:01,249 - bean ->StartService 加载成功
+2020-05-14 11:47:01,553 - 服务启动成功：端口->8080
+2020-05-14 11:47:03,652 - initChannel ch:[id: 0xbfff5a2f, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52475]
+2020-05-14 11:47:03,652 - initChannel ch:[id: 0xae9cf7f6, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52476]
+2020-05-14 11:47:03,792 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 7bd5b181-cdf0-449c-af2b-f46ab853f4bf, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 11:48:58,273 - 服务启动中。。。
+2020-05-14 11:48:58,286 - 开始加载bean,basePackage->org.example
+2020-05-14 11:48:58,642 - Reflections took 232 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:48:58,695 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 11:48:58,698 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 11:48:58,700 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 11:48:58,702 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 11:48:58,706 - 开始自动注入流程。。。
+2020-05-14 11:48:58,719 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 11:48:58,728 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 11:48:58,731 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:48:58,738 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 11:48:58,738 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 11:48:58,738 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 11:48:58,806 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 11:48:58,807 - bean ->StartService 加载成功
+2020-05-14 11:48:59,250 - 服务启动成功：端口->8080
+2020-05-14 11:49:01,869 - initChannel ch:[id: 0x5e83e3ff, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52494]
+2020-05-14 11:49:01,869 - initChannel ch:[id: 0x5056eec8, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:52495]
+2020-05-14 11:49:01,974 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 69935efd-ca5e-4d37-b756-23408175b4dc, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={"code":100,"message":"success"}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 11:49:05,668 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2020-05-14 15:04:43,074 - 服务启动中。。。
+2020-05-14 15:04:43,084 - 开始加载bean,basePackage->org.example
+2020-05-14 15:04:44,041 - Reflections took 518 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:04:44,158 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:04:44,160 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:04:44,162 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:04:44,163 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:04:44,165 - 开始自动注入流程。。。
+2020-05-14 15:04:44,185 - Reflections took 19 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:04:44,196 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:04:44,198 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:04:44,198 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:04:44,198 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:04:44,199 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:04:44,364 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:04:44,364 - bean ->StartService 加载成功
+2020-05-14 15:04:44,660 - 服务启动成功：端口->8080
+2020-05-14 15:04:57,025 - initChannel ch:[id: 0x7517cffa, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55550]
+2020-05-14 15:04:57,025 - initChannel ch:[id: 0x8104546e, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55549]
+2020-05-14 15:21:47,670 - 服务启动中。。。
+2020-05-14 15:21:47,679 - 开始加载bean,basePackage->org.example
+2020-05-14 15:21:48,186 - Reflections took 380 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:21:48,258 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:21:48,260 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:21:48,262 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:21:48,263 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:21:48,265 - 开始自动注入流程。。。
+2020-05-14 15:21:48,289 - Reflections took 23 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:21:48,300 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:21:48,303 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:21:48,304 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:21:48,304 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:21:48,305 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:21:48,377 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:21:48,377 - bean ->StartService 加载成功
+2020-05-14 15:21:48,636 - 服务启动成功：端口->8080
+2020-05-14 15:21:55,249 - initChannel ch:[id: 0xda02bb3a, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55872]
+2020-05-14 15:21:55,249 - initChannel ch:[id: 0x956291db, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55871]
+2020-05-14 15:21:55,316 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: a1860ebb-e5bd-46ea-90b8-62b4c9f207e2, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:21:55,682 - 请求出错 ->kong.unirest.UnirestException: org.apache.http.client.ClientProtocolException
+2020-05-14 15:22:23,914 - 服务启动中。。。
+2020-05-14 15:22:23,918 - 开始加载bean,basePackage->org.example
+2020-05-14 15:22:24,168 - Reflections took 140 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:22:24,215 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:22:24,217 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:22:24,218 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:22:24,219 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:22:24,220 - 开始自动注入流程。。。
+2020-05-14 15:22:24,234 - Reflections took 13 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:22:24,243 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:22:24,245 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:22:24,245 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:22:24,246 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:22:24,247 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:22:24,291 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:22:24,291 - bean ->StartService 加载成功
+2020-05-14 15:22:24,460 - 服务启动成功：端口->8080
+2020-05-14 15:22:28,896 - initChannel ch:[id: 0x62d8ad57, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55882]
+2020-05-14 15:22:28,896 - initChannel ch:[id: 0xa4b900cc, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55883]
+2020-05-14 15:22:28,968 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 0df4c0a5-c635-48de-b863-b92da77a796c, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:22:29,468 - 请求出错 ->kong.unirest.UnirestException: org.apache.http.client.ClientProtocolException
+2020-05-14 15:23:35,013 - 服务启动中。。。
+2020-05-14 15:23:35,017 - 开始加载bean,basePackage->org.example
+2020-05-14 15:23:35,294 - Reflections took 204 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:23:35,356 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:23:35,360 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:23:35,361 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:23:35,362 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:23:35,366 - 开始自动注入流程。。。
+2020-05-14 15:23:35,379 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:23:35,395 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:23:35,399 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:23:35,399 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:23:35,400 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:23:35,400 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:23:35,532 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:23:35,533 - bean ->StartService 加载成功
+2020-05-14 15:23:35,784 - 服务启动成功：端口->8080
+2020-05-14 15:23:39,998 - initChannel ch:[id: 0x8b944d87, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55904]
+2020-05-14 15:23:39,998 - initChannel ch:[id: 0xc70daffe, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55903]
+2020-05-14 15:23:40,099 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 53916ad2-5961-4ef0-a7e4-33774eb90cae, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:23:40,767 - 请求出错 ->kong.unirest.UnirestException: org.apache.http.client.ClientProtocolException
+2020-05-14 15:23:53,787 - 服务启动中。。。
+2020-05-14 15:23:53,802 - 开始加载bean,basePackage->org.example
+2020-05-14 15:23:54,587 - Reflections took 527 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:23:54,714 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:23:54,720 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:23:54,723 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:23:54,725 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:23:54,733 - 开始自动注入流程。。。
+2020-05-14 15:23:54,754 - Reflections took 20 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:23:54,770 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:23:54,777 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:23:54,786 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:23:54,786 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:23:54,786 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:23:54,917 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:23:54,917 - bean ->StartService 加载成功
+2020-05-14 15:23:55,203 - 服务启动成功：端口->8080
+2020-05-14 15:24:00,908 - initChannel ch:[id: 0x97c37545, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55916]
+2020-05-14 15:24:00,908 - initChannel ch:[id: 0xa5a41f14, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55915]
+2020-05-14 15:24:01,010 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 0030fd95-7339-4f0d-997c-e203190501d8, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:24:49,253 - 服务启动中。。。
+2020-05-14 15:24:49,262 - 开始加载bean,basePackage->org.example
+2020-05-14 15:24:49,532 - Reflections took 188 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:24:49,615 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:24:49,619 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:24:49,620 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:24:49,622 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:24:49,627 - 开始自动注入流程。。。
+2020-05-14 15:24:49,657 - Reflections took 29 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:24:49,664 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:24:49,669 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:24:49,681 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:24:49,681 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:24:49,681 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:24:49,763 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:24:49,763 - bean ->StartService 加载成功
+2020-05-14 15:24:50,031 - 服务启动成功：端口->8080
+2020-05-14 15:24:53,019 - initChannel ch:[id: 0xdbb399fc, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55931]
+2020-05-14 15:24:53,019 - initChannel ch:[id: 0x01f78301, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55932]
+2020-05-14 15:24:53,147 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 6157ed9f-9ff2-43d8-8f04-529b2a3bd90e, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:25:41,936 - 服务启动中。。。
+2020-05-14 15:25:41,943 - 开始加载bean,basePackage->org.example
+2020-05-14 15:25:42,320 - Reflections took 300 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:25:42,400 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:25:42,404 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:25:42,406 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:25:42,407 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:25:42,411 - 开始自动注入流程。。。
+2020-05-14 15:25:42,435 - Reflections took 23 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:25:42,450 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:25:42,473 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:25:42,511 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:25:42,512 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:25:42,512 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:25:42,626 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:25:42,626 - bean ->StartService 加载成功
+2020-05-14 15:25:42,923 - 服务启动成功：端口->8080
+2020-05-14 15:25:45,974 - initChannel ch:[id: 0x17fa5c85, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55949]
+2020-05-14 15:25:45,974 - initChannel ch:[id: 0x90eafdff, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55948]
+2020-05-14 15:25:46,086 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 5e23066b-84bf-4318-8cae-f9e200a4506a, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:27:48,582 - 服务启动中。。。
+2020-05-14 15:27:48,589 - 开始加载bean,basePackage->org.example
+2020-05-14 15:27:48,795 - Reflections took 140 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:27:48,835 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:27:48,838 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:27:48,840 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:27:48,842 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:27:48,846 - 开始自动注入流程。。。
+2020-05-14 15:27:48,860 - Reflections took 13 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:27:48,867 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:27:48,869 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:27:48,869 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:27:48,870 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:27:48,870 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:27:48,917 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:27:48,918 - bean ->StartService 加载成功
+2020-05-14 15:27:49,280 - 服务启动成功：端口->8080
+2020-05-14 15:27:51,453 - initChannel ch:[id: 0xdaa71d07, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55967]
+2020-05-14 15:27:51,453 - initChannel ch:[id: 0x4cb188c2, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55968]
+2020-05-14 15:27:51,531 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: ccb1b49c-df33-4c03-823d-300cafa397ab, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:28:22,878 - 服务启动中。。。
+2020-05-14 15:28:22,885 - 开始加载bean,basePackage->org.example
+2020-05-14 15:28:23,203 - Reflections took 226 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:28:23,355 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:28:23,358 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:28:23,359 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:28:23,360 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:28:23,364 - 开始自动注入流程。。。
+2020-05-14 15:28:23,375 - Reflections took 10 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:28:23,385 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:28:23,389 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:28:23,395 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:28:23,395 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:28:23,396 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:28:23,479 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:28:23,479 - bean ->StartService 加载成功
+2020-05-14 15:28:23,825 - 服务启动成功：端口->8080
+2020-05-14 15:28:26,476 - initChannel ch:[id: 0x8cd04d3c, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55979]
+2020-05-14 15:28:26,476 - initChannel ch:[id: 0x75ad89a2, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:55978]
+2020-05-14 15:28:26,574 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: fb2424c7-4163-4804-b596-d362271b391f, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:30:03,658 - 服务启动中。。。
+2020-05-14 15:30:03,665 - 开始加载bean,basePackage->org.example
+2020-05-14 15:30:04,082 - Reflections took 249 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:30:04,180 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:30:04,185 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:30:04,189 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:30:04,190 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:30:04,193 - 开始自动注入流程。。。
+2020-05-14 15:30:04,210 - Reflections took 16 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:30:04,226 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:30:04,230 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:30:04,237 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:30:04,237 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:30:04,237 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:30:04,341 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:30:04,342 - bean ->StartService 加载成功
+2020-05-14 15:30:04,654 - 服务启动成功：端口->8080
+2020-05-14 15:30:14,701 - initChannel ch:[id: 0x98c07105, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56007]
+2020-05-14 15:30:14,701 - initChannel ch:[id: 0xb5769d9d, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56008]
+2020-05-14 15:30:14,830 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 932d8e65-7f92-40a1-b2a5-3706e84b3476, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:31:35,465 - 服务启动中。。。
+2020-05-14 15:31:35,470 - 开始加载bean,basePackage->org.example
+2020-05-14 15:31:35,761 - Reflections took 174 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:31:35,817 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:31:35,819 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:31:35,823 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:31:35,824 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:31:35,827 - 开始自动注入流程。。。
+2020-05-14 15:31:35,864 - Reflections took 36 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:31:35,885 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:31:35,896 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:31:35,896 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:31:35,896 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:31:35,897 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:31:36,029 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:31:36,030 - bean ->StartService 加载成功
+2020-05-14 15:31:36,314 - 服务启动成功：端口->8080
+2020-05-14 15:31:38,341 - initChannel ch:[id: 0xd1e714f0, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56025]
+2020-05-14 15:31:38,341 - initChannel ch:[id: 0x10a86984, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56026]
+2020-05-14 15:31:38,413 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: a6620b30-0c67-48c6-a344-5943166302b5, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:56:28,947 - 服务启动中。。。
+2020-05-14 15:56:29,019 - 开始加载bean,basePackage->org.example
+2020-05-14 15:56:29,473 - Reflections took 279 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:56:29,561 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:56:29,565 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:56:29,567 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:56:29,567 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:56:29,571 - 开始自动注入流程。。。
+2020-05-14 15:56:29,593 - Reflections took 22 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:56:29,619 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:56:29,623 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:56:29,640 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:56:29,641 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:56:29,642 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:56:29,755 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:56:29,755 - bean ->StartService 加载成功
+2020-05-14 15:56:30,025 - 服务启动成功：端口->8080
+2020-05-14 15:56:38,301 - initChannel ch:[id: 0x0c980c3e, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56401]
+2020-05-14 15:56:38,301 - initChannel ch:[id: 0x60f4ab99, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56402]
+2020-05-14 15:56:38,463 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 6739ddfe-a11b-412d-8b86-b3444914b961, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:57:37,505 - 服务启动中。。。
+2020-05-14 15:57:37,517 - 开始加载bean,basePackage->org.example
+2020-05-14 15:57:37,840 - Reflections took 200 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:57:37,950 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:57:37,955 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:57:37,959 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:57:37,961 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:57:37,965 - 开始自动注入流程。。。
+2020-05-14 15:57:37,990 - Reflections took 23 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:57:37,996 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:57:37,999 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:57:38,004 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:57:38,005 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:57:38,005 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:57:38,082 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:57:38,083 - bean ->StartService 加载成功
+2020-05-14 15:57:38,392 - 服务启动成功：端口->8080
+2020-05-14 15:57:42,273 - initChannel ch:[id: 0x9870067e, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56419]
+2020-05-14 15:57:42,273 - initChannel ch:[id: 0x56bba176, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56418]
+2020-05-14 15:57:42,375 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: f2204cc9-6cf0-4dff-b010-023232deead3, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:58:25,061 - 服务启动中。。。
+2020-05-14 15:58:25,076 - 开始加载bean,basePackage->org.example
+2020-05-14 15:58:25,464 - Reflections took 217 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:58:25,526 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:58:25,530 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:58:25,533 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:58:25,536 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:58:25,565 - 开始自动注入流程。。。
+2020-05-14 15:58:25,577 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:58:25,588 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:58:25,591 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:58:25,604 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:58:25,604 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:58:25,605 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:58:25,696 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:58:25,697 - bean ->StartService 加载成功
+2020-05-14 15:58:26,033 - 服务启动成功：端口->8080
+2020-05-14 15:58:43,046 - initChannel ch:[id: 0x1a7790c4, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56440]
+2020-05-14 15:58:43,047 - initChannel ch:[id: 0xb4e01a12, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56441]
+2020-05-14 15:58:43,167 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: de3d8f55-39e6-48fd-aff7-653d8ddf0dbe, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 15:59:26,921 - 服务启动中。。。
+2020-05-14 15:59:26,926 - 开始加载bean,basePackage->org.example
+2020-05-14 15:59:27,177 - Reflections took 161 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:59:27,248 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 15:59:27,250 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 15:59:27,252 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 15:59:27,253 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 15:59:27,256 - 开始自动注入流程。。。
+2020-05-14 15:59:27,269 - Reflections took 11 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 15:59:27,278 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:59:27,281 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 15:59:27,281 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 15:59:27,281 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 15:59:27,281 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 15:59:27,401 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 15:59:27,404 - bean ->StartService 加载成功
+2020-05-14 15:59:27,684 - 服务启动成功：端口->8080
+2020-05-14 15:59:30,557 - initChannel ch:[id: 0xe6f97341, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56451]
+2020-05-14 15:59:30,557 - initChannel ch:[id: 0xf25a5cb4, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56450]
+2020-05-14 15:59:30,634 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: da22b0bf-f320-4ed7-8574-a0a729d120b3, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:05:25,375 - 服务启动中。。。
+2020-05-14 16:05:25,387 - 开始加载bean,basePackage->org.example
+2020-05-14 16:05:25,611 - Reflections took 138 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:05:25,663 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:05:25,666 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:05:25,667 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:05:25,668 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:05:25,672 - 开始自动注入流程。。。
+2020-05-14 16:05:25,685 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:05:25,693 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:05:25,695 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:05:25,696 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:05:25,697 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:05:25,697 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:05:25,750 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:05:25,750 - bean ->StartService 加载成功
+2020-05-14 16:05:25,969 - 服务启动成功：端口->8080
+2020-05-14 16:05:29,364 - initChannel ch:[id: 0xb20d3f18, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56519]
+2020-05-14 16:05:29,364 - initChannel ch:[id: 0x1921a1ef, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56518]
+2020-05-14 16:05:29,437 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: cbc691b2-8523-4683-98d3-364bec26d8cf, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:07:47,998 - 服务启动中。。。
+2020-05-14 16:07:48,003 - 开始加载bean,basePackage->org.example
+2020-05-14 16:07:48,245 - Reflections took 176 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:07:48,285 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:07:48,288 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:07:48,290 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:07:48,291 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:07:48,292 - 开始自动注入流程。。。
+2020-05-14 16:07:48,305 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:07:48,313 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:07:48,319 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:07:48,319 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:07:48,320 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:07:48,320 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:07:48,366 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:07:48,366 - bean ->StartService 加载成功
+2020-05-14 16:07:48,654 - 服务启动成功：端口->8080
+2020-05-14 16:07:51,174 - initChannel ch:[id: 0x02c72db5, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56558]
+2020-05-14 16:07:51,174 - initChannel ch:[id: 0x881db9dc, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56557]
+2020-05-14 16:07:51,244 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 2c6cc2c6-a8fa-4c0e-89b6-56e1328df090, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:08:25,400 - 服务启动中。。。
+2020-05-14 16:08:25,409 - 开始加载bean,basePackage->org.example
+2020-05-14 16:08:25,777 - Reflections took 244 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:08:25,872 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:08:25,878 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:08:25,880 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:08:25,881 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:08:25,886 - 开始自动注入流程。。。
+2020-05-14 16:08:25,911 - Reflections took 24 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:08:25,923 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:08:25,934 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:08:25,942 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:08:25,942 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:08:25,942 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:08:26,000 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:08:26,001 - bean ->StartService 加载成功
+2020-05-14 16:08:26,274 - 服务启动成功：端口->8080
+2020-05-14 16:08:30,661 - initChannel ch:[id: 0x5bb219b2, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56569]
+2020-05-14 16:08:30,661 - initChannel ch:[id: 0xd49d3ff5, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56570]
+2020-05-14 16:08:30,794 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 3acb953b-d392-49c0-8380-9c3d5b300cce, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:21:52,607 - 服务启动中。。。
+2020-05-14 16:21:52,613 - 开始加载bean,basePackage->org.example
+2020-05-14 16:21:52,866 - Reflections took 157 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:21:52,917 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:21:52,921 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:21:52,922 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:21:52,923 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:21:52,927 - 开始自动注入流程。。。
+2020-05-14 16:21:52,957 - Reflections took 26 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:21:52,983 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:21:52,985 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:21:52,986 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:21:52,986 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:21:52,987 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:21:53,089 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:21:53,090 - bean ->StartService 加载成功
+2020-05-14 16:21:53,358 - 服务启动成功：端口->8080
+2020-05-14 16:21:55,190 - initChannel ch:[id: 0xe2c8696c, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56736]
+2020-05-14 16:21:55,190 - initChannel ch:[id: 0x3e719f5b, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56737]
+2020-05-14 16:21:55,260 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 71df6789-45ac-4d0c-8850-008e6d3aa5db, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:23:19,923 - 服务启动中。。。
+2020-05-14 16:23:19,929 - 开始加载bean,basePackage->org.example
+2020-05-14 16:23:20,121 - Reflections took 135 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:23:20,163 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:23:20,165 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:23:20,167 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:23:20,167 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:23:20,169 - 开始自动注入流程。。。
+2020-05-14 16:23:20,181 - Reflections took 11 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-14 16:23:20,188 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:23:20,190 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:23:20,190 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:23:20,191 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:23:20,191 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:23:20,234 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:23:20,234 - bean ->StartService 加载成功
+2020-05-14 16:23:20,436 - 服务启动成功：端口->8080
+2020-05-14 16:23:24,132 - initChannel ch:[id: 0x059019c2, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56765]
+2020-05-14 16:23:24,132 - initChannel ch:[id: 0x79ead2b9, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:56766]
+2020-05-14 16:23:24,210 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 8a992ac4-9b09-47e1-9ec5-c294c8a12d76, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:23:53,819 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: e8547202-f328-4721-95ba-3829b928bba5, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:31:45,528 - 服务启动中。。。
+2020-05-14 16:31:45,550 - 开始加载bean,basePackage->org.example
+2020-05-14 16:31:45,772 - Reflections took 146 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:31:45,831 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:31:45,834 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:31:45,835 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:31:45,836 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:31:45,838 - 开始自动注入流程。。。
+2020-05-14 16:31:45,852 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:31:45,865 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:31:45,868 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:31:45,868 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:31:45,868 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:31:45,868 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:31:45,943 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:31:45,943 - bean ->StartService 加载成功
+2020-05-14 16:31:46,242 - 服务启动成功：端口->8080
+2020-05-14 16:31:50,330 - initChannel ch:[id: 0x6b0732cf, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57008]
+2020-05-14 16:31:50,331 - initChannel ch:[id: 0x34b95e7e, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57007]
+2020-05-14 16:31:50,416 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 2d4835b6-1668-4008-893f-371d6cc14e76, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:32:52,412 - 服务启动中。。。
+2020-05-14 16:32:52,415 - 开始加载bean,basePackage->org.example
+2020-05-14 16:32:52,609 - Reflections took 116 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:32:52,655 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:32:52,659 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:32:52,661 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:32:52,662 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:32:52,664 - 开始自动注入流程。。。
+2020-05-14 16:32:52,677 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:32:52,692 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:32:52,694 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:32:52,696 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:32:52,696 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:32:52,697 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:32:52,745 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:32:52,746 - bean ->StartService 加载成功
+2020-05-14 16:32:52,970 - 服务启动成功：端口->8080
+2020-05-14 16:32:57,023 - initChannel ch:[id: 0x20b8234c, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57025]
+2020-05-14 16:32:57,023 - initChannel ch:[id: 0x393cb459, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57024]
+2020-05-14 16:32:57,097 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 5e004283-4bce-4299-ba7b-45f98c89d3a3, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:33:14,321 - 服务启动中。。。
+2020-05-14 16:33:14,331 - 开始加载bean,basePackage->org.example
+2020-05-14 16:33:14,596 - Reflections took 159 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:33:14,646 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:33:14,649 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:33:14,650 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:33:14,651 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:33:14,653 - 开始自动注入流程。。。
+2020-05-14 16:33:14,667 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:33:14,677 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:33:14,684 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:33:14,685 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:33:14,685 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:33:14,685 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:33:14,746 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:33:14,746 - bean ->StartService 加载成功
+2020-05-14 16:33:14,955 - 服务启动成功：端口->8080
+2020-05-14 16:33:19,363 - initChannel ch:[id: 0xf93df4f8, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57031]
+2020-05-14 16:33:19,363 - initChannel ch:[id: 0xedc63ed3, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57030]
+2020-05-14 16:33:19,441 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 56c34bcc-6de0-4e80-8d7d-923258df3bfc, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:34:21,232 - 服务启动中。。。
+2020-05-14 16:34:21,236 - 开始加载bean,basePackage->org.example
+2020-05-14 16:34:21,496 - Reflections took 202 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:34:21,542 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:34:21,544 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:34:21,545 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:34:21,546 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:34:21,548 - 开始自动注入流程。。。
+2020-05-14 16:34:21,562 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:34:21,578 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:34:21,580 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:34:21,581 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:34:21,581 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:34:21,581 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:34:21,629 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:34:21,630 - bean ->StartService 加载成功
+2020-05-14 16:34:21,898 - 服务启动成功：端口->8080
+2020-05-14 16:34:24,692 - initChannel ch:[id: 0xf6ca7938, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57043]
+2020-05-14 16:34:24,692 - initChannel ch:[id: 0xb497fb38, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57044]
+2020-05-14 16:34:24,770 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 10436b28-5f87-47de-95a6-ec65176c0792, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:35:15,729 - 服务启动中。。。
+2020-05-14 16:35:15,732 - 开始加载bean,basePackage->org.example
+2020-05-14 16:35:15,944 - Reflections took 147 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:35:15,988 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:35:15,991 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:35:15,992 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:35:15,994 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:35:15,996 - 开始自动注入流程。。。
+2020-05-14 16:35:16,011 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:35:16,018 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:35:16,021 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:35:16,021 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:35:16,021 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:35:16,022 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:35:16,067 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:35:16,067 - bean ->StartService 加载成功
+2020-05-14 16:35:16,247 - 服务启动成功：端口->8080
+2020-05-14 16:35:20,481 - initChannel ch:[id: 0x5357195c, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57058]
+2020-05-14 16:35:20,481 - initChannel ch:[id: 0x99338b55, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57057]
+2020-05-14 16:35:20,555 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 0b5945c6-a29a-4c0a-8ad9-0ae0178f9d49, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:47:04,412 - 服务启动中。。。
+2020-05-14 16:47:04,418 - 开始加载bean,basePackage->org.example
+2020-05-14 16:47:04,929 - Reflections took 318 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:47:05,052 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:47:05,056 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:47:05,058 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:47:05,059 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:47:05,064 - 开始自动注入流程。。。
+2020-05-14 16:47:05,091 - Reflections took 25 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:47:05,125 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:47:05,131 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:47:05,131 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:47:05,131 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:47:05,132 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:47:05,275 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:47:05,275 - bean ->StartService 加载成功
+2020-05-14 16:47:05,804 - 服务启动成功：端口->8080
+2020-05-14 16:47:09,509 - initChannel ch:[id: 0x6f5e7150, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57166]
+2020-05-14 16:47:09,509 - initChannel ch:[id: 0x8cc093c1, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57167]
+2020-05-14 16:47:09,624 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 09e9c970-fa1f-43ec-bff7-5a5cb8708e10, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 37, Connection: keep-alive], bodyJson={
+	"code":100,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:54:31,695 - 服务启动中。。。
+2020-05-14 16:54:31,701 - 开始加载bean,basePackage->org.example
+2020-05-14 16:54:32,238 - Reflections took 427 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:54:32,313 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:54:32,316 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:54:32,318 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:54:32,319 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:54:32,322 - 开始自动注入流程。。。
+2020-05-14 16:54:32,342 - Reflections took 19 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:54:32,357 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:54:32,362 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:54:32,362 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:54:32,363 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:54:32,363 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:54:32,525 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:54:32,526 - bean ->StartService 加载成功
+2020-05-14 16:54:32,812 - 服务启动成功：端口->8080
+2020-05-14 16:54:46,872 - initChannel ch:[id: 0xdb5a8a8b, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57280]
+2020-05-14 16:54:46,872 - initChannel ch:[id: 0x82c176de, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57281]
+2020-05-14 16:54:46,960 - 进入defaultFilter中 metaData->RequestMetadata(uri=/lala, queryStr=id=100, method=GET, headers=DefaultHttpHeaders[Content-Type: application/x-www-form-urlencoded, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 68eeefa4-54f2-49b5-af17-1e97943ae7b8, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:54:58,053 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/x-www-form-urlencoded, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 689797b7-9d88-43bc-833d-bd4be53775ff, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:54:58,106 - 请求出错 ->java.lang.NullPointerException
+2020-05-14 16:55:38,708 - 服务启动中。。。
+2020-05-14 16:55:38,714 - 开始加载bean,basePackage->org.example
+2020-05-14 16:55:38,957 - Reflections took 168 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:55:38,999 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:55:39,000 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:55:39,002 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:55:39,003 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:55:39,005 - 开始自动注入流程。。。
+2020-05-14 16:55:39,022 - Reflections took 17 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:55:39,030 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:55:39,033 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:55:39,033 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:55:39,034 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:55:39,034 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:55:39,084 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:55:39,084 - bean ->StartService 加载成功
+2020-05-14 16:55:39,420 - 服务启动成功：端口->8080
+2020-05-14 16:55:41,509 - initChannel ch:[id: 0xfd888d63, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57298]
+2020-05-14 16:55:41,509 - initChannel ch:[id: 0x9b12a142, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57297]
+2020-05-14 16:55:41,583 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/x-www-form-urlencoded, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: a728a602-0f05-41a6-baa2-3b9ac52689b3, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:56:10,778 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: ba5b8a47-1169-44c4-8767-3cfe08befb58, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:56:50,308 - 服务启动中。。。
+2020-05-14 16:56:50,315 - 开始加载bean,basePackage->org.example
+2020-05-14 16:56:50,608 - Reflections took 186 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:56:50,656 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:56:50,658 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:56:50,659 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:56:50,659 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:56:50,661 - 开始自动注入流程。。。
+2020-05-14 16:56:50,675 - Reflections took 14 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:56:50,684 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:56:50,686 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:56:50,686 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:56:50,686 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:56:50,686 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:56:50,732 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:56:50,732 - bean ->StartService 加载成功
+2020-05-14 16:56:50,958 - 服务启动成功：端口->8080
+2020-05-14 16:56:54,085 - initChannel ch:[id: 0xfe205b8a, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57315]
+2020-05-14 16:56:54,085 - initChannel ch:[id: 0xbcae1c55, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57314]
+2020-05-14 16:56:54,164 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 0a376cd7-fa3a-4ffe-944f-4659c3dcae86, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:56:54,648 - 请求出错 ->kong.unirest.UnirestException: org.apache.http.client.ClientProtocolException
+2020-05-14 16:57:55,989 - 服务启动中。。。
+2020-05-14 16:57:55,994 - 开始加载bean,basePackage->org.example
+2020-05-14 16:57:56,245 - Reflections took 190 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:57:56,295 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 16:57:56,298 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 16:57:56,299 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 16:57:56,300 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 16:57:56,302 - 开始自动注入流程。。。
+2020-05-14 16:57:56,316 - Reflections took 13 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 16:57:56,323 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:57:56,331 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 16:57:56,332 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 16:57:56,332 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 16:57:56,333 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 16:57:56,403 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 16:57:56,404 - bean ->StartService 加载成功
+2020-05-14 16:57:56,640 - 服务启动成功：端口->8080
+2020-05-14 16:57:59,735 - initChannel ch:[id: 0x7dc17e6b, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57326]
+2020-05-14 16:57:59,735 - initChannel ch:[id: 0xbf5727f9, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57325]
+2020-05-14 16:57:59,823 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 8379908b-75de-47ac-8290-f3e739bc1fe9, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 16:58:29,893 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/x-www-form-urlencoded, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 9e1473ff-ab1c-46de-bc67-1e5a48bd3d32, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 28, Connection: keep-alive], bodyJson=code=20000&message=dasdadasd, queryParamsMap={id=[100]}, formParamsMap={code=20000, message=dasdadasd})
+2020-05-14 16:58:53,533 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/x-www-form-urlencoded, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 38d68d56-d417-482a-a6d9-5796769587e6, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 28, Connection: keep-alive], bodyJson=code=20000&message=dasdadasd, queryParamsMap={id=[100]}, formParamsMap={code=20000, message=dasdadasd})
+2020-05-14 16:59:10,149 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 2e40a67d-8ce9-4eda-aad0-158572af6368, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 17:08:39,123 - 服务启动中。。。
+2020-05-14 17:08:39,132 - 开始加载bean,basePackage->org.example
+2020-05-14 17:08:39,391 - Reflections took 163 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:08:39,442 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:08:39,444 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:08:39,445 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 17:08:39,446 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:08:39,447 - 开始自动注入流程。。。
+2020-05-14 17:08:39,459 - Reflections took 10 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:08:39,471 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:08:39,474 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:08:39,474 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:08:39,474 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:08:39,475 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:08:39,534 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:08:39,535 - bean ->StartService 加载成功
+2020-05-14 17:08:39,955 - 服务启动成功：端口->8080
+2020-05-14 17:09:14,589 - initChannel ch:[id: 0x0902330f, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57483]
+2020-05-14 17:09:14,589 - initChannel ch:[id: 0x96ecec6d, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57482]
+2020-05-14 17:09:14,675 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 1dac8c69-b145-4496-8dc6-7fee49730c5b, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 17:09:14,678 - 未找到api ->/test 对应的请求元数据 ，进行初始构造。。。
+2020-05-14 17:09:23,851 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, queryStr=id=100, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: c52ca5a6-64fd-4387-8744-8a3a90fd29c1, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 41, Connection: keep-alive], bodyJson={
+	"code":1000000,
+	"message":"success"
+}, queryParamsMap={id=[100]}, formParamsMap={})
+2020-05-14 17:10:12,911 - 服务启动中。。。
+2020-05-14 17:10:12,919 - 开始加载bean,basePackage->org.example
+2020-05-14 17:10:13,145 - Reflections took 163 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:10:13,189 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:10:13,192 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:10:13,193 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-14 17:10:13,194 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:10:13,198 - 开始自动注入流程。。。
+2020-05-14 17:10:13,219 - Reflections took 19 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:10:13,232 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:10:13,234 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:10:13,234 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:10:13,235 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:10:13,235 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:10:13,279 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:10:13,280 - bean ->StartService 加载成功
+2020-05-14 17:10:13,507 - 服务启动成功：端口->8080
+2020-05-14 17:10:18,214 - initChannel ch:[id: 0x77cf7f90, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57505]
+2020-05-14 17:10:18,214 - initChannel ch:[id: 0xdc35df94, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57506]
+2020-05-14 17:10:18,382 - 进入defaultFilter中 apiName->/test
+2020-05-14 17:10:18,383 - 未找到api ->/test 对应的请求元数据 ，进行初始构造。。。
+2020-05-14 17:11:08,491 - 服务启动中。。。
+2020-05-14 17:11:08,500 - 开始加载bean,basePackage->org.example
+2020-05-14 17:11:08,790 - Reflections took 215 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:11:08,878 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:11:08,885 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:11:08,888 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:11:08,892 - 开始自动注入流程。。。
+2020-05-14 17:11:08,915 - Reflections took 23 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:11:08,926 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:11:08,929 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:11:08,929 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:11:08,929 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:11:08,930 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:11:08,982 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:11:08,982 - bean ->StartService 加载成功
+2020-05-14 17:11:09,241 - 服务启动成功：端口->8080
+2020-05-14 17:11:12,906 - initChannel ch:[id: 0x78fbc129, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57517]
+2020-05-14 17:11:12,906 - initChannel ch:[id: 0xa3db7278, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57518]
+2020-05-14 17:11:12,992 - 进入defaultFilter中 apiName->/test
+2020-05-14 17:11:12,993 - 未找到api ->/test 对应的请求元数据 ，进行初始构造。。。
+2020-05-14 17:13:43,457 - 服务启动中。。。
+2020-05-14 17:13:43,467 - 开始加载bean,basePackage->org.example
+2020-05-14 17:13:43,723 - Reflections took 143 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:13:43,785 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:13:43,788 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:13:43,790 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:13:43,792 - 开始自动注入流程。。。
+2020-05-14 17:13:43,832 - Reflections took 40 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:13:43,844 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:13:43,849 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:13:43,849 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:13:43,850 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:13:43,850 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:13:43,961 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:13:43,961 - bean ->StartService 加载成功
+2020-05-14 17:13:44,255 - 服务启动成功：端口->8080
+2020-05-14 17:13:48,415 - initChannel ch:[id: 0xcd3ff2de, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57562]
+2020-05-14 17:13:48,415 - initChannel ch:[id: 0xa64685ff, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:57561]
+2020-05-14 17:13:48,490 - 进入defaultFilter中 apiName->/test
+2020-05-14 17:13:48,491 - 未找到api ->/test 对应的请求元数据 ，进行初始构造。。。
+2020-05-14 17:57:56,257 - 服务启动中。。。
+2020-05-14 17:57:56,262 - 开始加载bean,basePackage->org.example
+2020-05-14 17:57:56,555 - Reflections took 219 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:57:56,643 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:57:56,645 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:57:56,647 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:57:56,648 - 开始自动注入流程。。。
+2020-05-14 17:57:56,661 - Reflections took 12 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:57:56,669 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:57:56,671 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:57:56,675 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:57:56,675 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:57:56,676 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:57:56,750 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:57:56,753 - bean ->StartService 加载成功
+2020-05-14 17:57:57,397 - 服务启动成功：端口->8080
+2020-05-14 17:58:38,358 - 服务启动中。。。
+2020-05-14 17:58:38,365 - 开始加载bean,basePackage->org.example
+2020-05-14 17:58:38,604 - Reflections took 161 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:58:38,647 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:58:38,649 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:58:38,651 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:58:38,652 - 开始自动注入流程。。。
+2020-05-14 17:58:38,665 - Reflections took 11 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:58:38,669 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:58:38,671 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:58:38,675 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:58:38,676 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:58:38,676 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:58:38,723 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:58:38,724 - bean ->StartService 加载成功
+2020-05-14 17:58:38,910 - 服务启动成功：端口->8080
+2020-05-14 17:58:50,205 - 服务启动中。。。
+2020-05-14 17:58:50,211 - 开始加载bean,basePackage->org.example
+2020-05-14 17:58:50,474 - Reflections took 194 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:58:50,530 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 17:58:50,532 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 17:58:50,533 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 17:58:50,535 - 开始自动注入流程。。。
+2020-05-14 17:58:50,547 - Reflections took 11 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-14 17:58:50,551 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 17:58:50,554 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:58:50,560 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 17:58:50,560 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 17:58:50,560 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 17:58:50,608 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 17:58:50,611 - bean ->StartService 加载成功
+2020-05-14 17:58:50,803 - 服务启动成功：端口->8080
+2020-05-14 18:07:28,106 - 开始加载bean,basePackage->org.example
+2020-05-14 18:07:28,331 - Reflections took 164 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:07:28,370 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:07:28,372 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:07:28,374 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:07:28,376 - 开始自动注入流程。。。
+2020-05-14 18:07:28,389 - Reflections took 12 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:07:28,395 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:07:28,397 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:07:28,398 - ------- 加载前提依赖 className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:07:28,402 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:07:28,403 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:07:28,403 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:07:28,404 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:07:28,447 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:09:38,802 - 开始加载bean,basePackage->org.example
+2020-05-14 18:09:39,212 - Reflections took 269 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:09:39,358 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:09:39,362 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:09:39,367 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:09:39,376 - 开始自动注入流程。。。
+2020-05-14 18:09:39,414 - Reflections took 37 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:09:39,431 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:09:39,432 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:09:39,437 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:09:39,437 - ------- 加载前提依赖 className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:09:39,447 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:09:39,448 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:09:39,449 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:10:15,180 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:10:16,346 - 开始加载bean,basePackage->org.example
+2020-05-14 18:10:17,107 - Reflections took 575 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:10:17,213 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:10:17,220 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:10:17,223 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:10:17,236 - 开始自动注入流程。。。
+2020-05-14 18:10:17,270 - Reflections took 32 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:10:17,278 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:10:17,280 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:10:17,287 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:10:17,288 - ------- 加载前提依赖 className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:10:17,299 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:10:17,303 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:10:17,304 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:11:48,500 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:12:05,238 - 开始加载bean,basePackage->org.example
+2020-05-14 18:12:05,498 - Reflections took 152 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:12:05,539 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:12:05,542 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:12:05,544 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:12:05,546 - 开始自动注入流程。。。
+2020-05-14 18:12:05,559 - Reflections took 12 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:12:05,563 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:12:05,565 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:12:05,566 - ------- 加载前提依赖 className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:12:05,571 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:12:05,573 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:12:05,574 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:12:05,575 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:12:05,577 - bean ->org.example.config.BaseConfigService 加载成功
+2020-05-14 18:12:05,648 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:12:05,650 - bean ->StartService 加载成功
+2020-05-14 18:12:05,937 - 服务启动成功：端口->8080
+2020-05-14 18:13:39,465 - 开始加载bean,basePackage->org.example
+2020-05-14 18:13:39,687 - Reflections took 156 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:13:39,727 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:13:39,729 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:13:39,730 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:13:39,733 - 开始自动注入流程。。。
+2020-05-14 18:13:39,749 - Reflections took 14 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:13:39,754 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:13:39,756 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:13:39,761 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:13:39,761 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:13:39,762 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:13:39,762 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:13:39,763 - bean ->org.example.config.BaseConfigService 加载成功
+2020-05-14 18:13:39,814 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:13:39,814 - bean ->StartService 加载成功
+2020-05-14 18:13:40,034 - 服务启动成功：端口->8080
+2020-05-14 18:18:43,164 - 读取配置文件配置 ->application.properties
+2020-05-14 18:18:43,168 - 开始加载bean,basePackage->org.example
+2020-05-14 18:18:43,354 - Reflections took 128 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:18:43,397 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:18:43,399 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:18:43,401 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:18:43,403 - 开始自动注入流程。。。
+2020-05-14 18:18:43,416 - Reflections took 12 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:18:43,420 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:18:43,421 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:18:43,434 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:18:43,434 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:18:43,435 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:18:43,435 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:18:43,436 - bean ->org.example.config.BaseConfigService 加载成功
+2020-05-14 18:18:43,479 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:18:43,479 - bean ->StartService 加载成功
+2020-05-14 18:18:43,648 - 服务启动成功：端口->8080
+2020-05-14 18:21:59,517 - 读取配置文件配置 ->application.properties
+2020-05-14 18:21:59,520 - 开始加载bean,basePackage->org.example
+2020-05-14 18:21:59,716 - Reflections took 124 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:21:59,809 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-14 18:21:59,812 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-14 18:21:59,814 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-14 18:21:59,816 - 开始自动注入流程。。。
+2020-05-14 18:21:59,834 - Reflections took 17 ms to scan 1 urls, producing 16 keys and 28 values 
+2020-05-14 18:21:59,842 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-14 18:21:59,844 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:21:59,849 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-14 18:21:59,850 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-14 18:21:59,850 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-14 18:21:59,851 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-14 18:21:59,853 - bean ->org.example.config.BaseConfigService 加载成功
+2020-05-14 18:21:59,899 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-14 18:21:59,900 - bean ->StartService 加载成功
+2020-05-14 18:22:00,227 - 服务启动成功：端口->8080

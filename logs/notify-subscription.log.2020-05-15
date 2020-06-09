@@ -1,0 +1,22 @@
+2020-05-15 15:38:28,550 - 读取配置文件配置 ->application.properties
+2020-05-15 15:38:28,557 - 开始加载bean,basePackage->org.example
+2020-05-15 15:38:28,809 - Reflections took 167 ms to scan 1 urls, producing 15 keys and 27 values 
+2020-05-15 15:38:28,879 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-15 15:38:28,881 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-15 15:38:28,882 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-15 15:38:28,884 - 开始自动注入流程。。。
+2020-05-15 15:38:28,897 - Reflections took 12 ms to scan 1 urls, producing 15 keys and 27 values 
+2020-05-15 15:38:28,900 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-15 15:38:28,902 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-15 15:38:28,905 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-15 15:38:28,905 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-15 15:38:28,906 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-15 15:38:28,906 - 扫描到需自动注入的类，className->org.example.config.BaseConfigService,beanName->org.example.config.BaseConfigService
+2020-05-15 15:38:28,907 - bean ->org.example.config.BaseConfigService 加载成功
+2020-05-15 15:38:28,975 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-15 15:38:28,976 - bean ->StartService 加载成功
+2020-05-15 15:38:29,196 - 服务启动成功：端口->8080
+2020-05-15 15:39:12,281 - initChannel ch:[id: 0xf8949da9, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:53182]
+2020-05-15 15:39:12,281 - initChannel ch:[id: 0x7bd5d646, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:53183]
+2020-05-15 15:39:12,379 - 进入defaultFilter中 apiName->/test
+2020-05-15 15:39:12,382 - 未找到api ->/test 对应的请求元数据 ，进行初始构造。。。

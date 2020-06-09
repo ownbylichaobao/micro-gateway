@@ -1,0 +1,175 @@
+2020-05-13 16:01:05,072 - 服务启动中。。。
+2020-05-13 16:01:05,337 - Reflections took 144 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:01:05,417 - Reflections took 17 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:01:15,512 - 服务启动中。。。
+2020-05-13 16:01:15,725 - Reflections took 141 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:01:15,800 - Reflections took 14 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:01:20,981 - 服务启动中。。。
+2020-05-13 16:01:21,251 - Reflections took 173 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:01:21,400 - Reflections took 12 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:04:24,367 - 服务启动中。。。
+2020-05-13 16:04:24,697 - Reflections took 190 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 16:04:24,794 - Reflections took 15 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 19:51:10,239 - 服务启动中。。。
+2020-05-13 19:51:10,501 - Reflections took 130 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 19:51:10,566 - Reflections took 9 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 19:51:30,523 - 服务启动中。。。
+2020-05-13 19:51:30,725 - Reflections took 118 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 19:51:30,786 - Reflections took 9 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 19:51:31,081 - 服务启动成功：端口->8080
+2020-05-13 20:01:44,705 - 服务启动中。。。
+2020-05-13 20:01:44,710 - 开始加载bean,basePackage->org.example
+2020-05-13 20:01:44,923 - Reflections took 141 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 20:01:44,963 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-13 20:01:44,965 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-13 20:01:44,967 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-13 20:01:44,968 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-13 20:01:44,969 - 开始自动注入流程。。。
+2020-05-13 20:01:44,979 - Reflections took 8 ms to scan 1 urls, producing 16 keys and 27 values 
+2020-05-13 20:01:44,981 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-13 20:01:44,983 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:01:44,985 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:01:44,985 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-13 20:01:44,985 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-13 20:01:45,030 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-13 20:01:45,030 - bean ->StartService 加载成功
+2020-05-13 20:01:46,190 - 服务启动成功：端口->8080
+2020-05-13 20:02:48,115 - initChannel ch:[id: 0x3c383136, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60200]
+2020-05-13 20:02:48,115 - initChannel ch:[id: 0x2915a285, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60201]
+2020-05-13 20:02:48,208 - Failed to initialize a channel. Closing: [id: 0x2915a285, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60201]
+io.netty.channel.ChannelPipelineException: org.example.server.HttpHandler is not a @Sharable handler, so can't be added or removed multiple times.
+	at io.netty.channel.DefaultChannelPipeline.checkMultiplicity(DefaultChannelPipeline.java:604)
+	at io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:202)
+	at io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:195)
+	at org.example.server.Server$1.initChannel(Server.java:52)
+	at org.example.server.Server$1.initChannel(Server.java:43)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112)
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:964)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:613)
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1475)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1127)
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:654)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:503)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:416)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:475)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-13 20:03:37,359 - 服务启动中。。。
+2020-05-13 20:03:37,366 - 开始加载bean,basePackage->org.example
+2020-05-13 20:03:37,731 - Reflections took 222 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:03:37,780 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-13 20:03:37,783 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-13 20:03:37,784 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-13 20:03:37,785 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-13 20:03:37,788 - 开始自动注入流程。。。
+2020-05-13 20:03:37,801 - Reflections took 12 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:03:37,804 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-13 20:03:37,806 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:03:37,815 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:03:37,815 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-13 20:03:37,816 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-13 20:03:37,886 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-13 20:03:37,886 - bean ->StartService 加载成功
+2020-05-13 20:03:39,114 - 服务启动成功：端口->8080
+2020-05-13 20:03:42,929 - initChannel ch:[id: 0x07f6843b, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60211]
+2020-05-13 20:03:42,929 - initChannel ch:[id: 0xa93ae7f3, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60212]
+2020-05-13 20:03:42,998 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:03:46,745 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:03:47,540 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:03:47,937 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:03:48,275 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:03:48,644 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:04:30,539 - 服务启动中。。。
+2020-05-13 20:04:30,543 - 开始加载bean,basePackage->org.example
+2020-05-13 20:04:30,896 - Reflections took 245 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:04:30,938 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-13 20:04:30,941 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-13 20:04:30,943 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-13 20:04:30,943 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-13 20:04:30,945 - 开始自动注入流程。。。
+2020-05-13 20:04:30,957 - Reflections took 11 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:04:30,960 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-13 20:04:30,962 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:04:30,966 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:04:30,966 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-13 20:04:30,966 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-13 20:04:31,007 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-13 20:04:31,007 - bean ->StartService 加载成功
+2020-05-13 20:04:32,203 - 服务启动成功：端口->8080
+2020-05-13 20:07:16,655 - 服务启动中。。。
+2020-05-13 20:07:16,670 - 开始加载bean,basePackage->org.example
+2020-05-13 20:07:16,934 - Reflections took 176 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:07:16,976 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-13 20:07:16,979 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-13 20:07:16,980 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-13 20:07:16,981 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-13 20:07:16,983 - 开始自动注入流程。。。
+2020-05-13 20:07:16,993 - Reflections took 10 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:07:16,996 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-13 20:07:16,998 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:07:17,003 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:07:17,003 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-13 20:07:17,004 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-13 20:07:17,050 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-13 20:07:17,050 - bean ->StartService 加载成功
+2020-05-13 20:07:18,241 - 服务启动成功：端口->8080
+2020-05-13 20:07:20,380 - initChannel ch:[id: 0xddc80a62, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60248]
+2020-05-13 20:07:20,380 - initChannel ch:[id: 0xe96fc09f, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60247]
+2020-05-13 20:07:20,438 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:07:20,450 - 进入defaultFilter中 metaData->RequestMetadata(uri=/, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: d17743d5-f7ec-4ddc-bcc6-676a67edf32e, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 60, Connection: keep-alive], bodyJson={
+	"code":{
+		"test":1,
+		"name":[1,2]
+	},
+	"msg":"测试"
+}, queryParamsMap={}, formParamsMap={})
+2020-05-13 20:07:40,377 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:07:40,378 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 9bc2dd86-1fec-4a01-966c-47e809d08f30, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 60, Connection: keep-alive], bodyJson={
+	"code":{
+		"test":1,
+		"name":[1,2]
+	},
+	"msg":"测试"
+}, queryParamsMap={}, formParamsMap={})
+2020-05-13 20:07:51,631 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:07:51,632 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test?name=1, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: 3630547f-17ab-4745-b4f9-33c37baa7653, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 60, Connection: keep-alive], bodyJson={
+	"code":{
+		"test":1,
+		"name":[1,2]
+	},
+	"msg":"测试"
+}, queryParamsMap={name=[1]}, formParamsMap={})
+2020-05-13 20:11:13,285 - 服务启动中。。。
+2020-05-13 20:11:13,296 - 开始加载bean,basePackage->org.example
+2020-05-13 20:11:13,542 - Reflections took 150 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:11:13,585 - 加载配置类 ->org.example.config.DefaultConfiguration
+2020-05-13 20:11:13,588 - --------生成Bean 类名->org.example.core.basic.BasicFilter
+2020-05-13 20:11:13,589 - --------生成Bean 类名->org.example.core.basic.BasicLBStrategyHandler
+2020-05-13 20:11:13,590 - --------生成Bean 类名->org.example.core.basic.BasicParamHandler
+2020-05-13 20:11:13,592 - 开始自动注入流程。。。
+2020-05-13 20:11:13,604 - Reflections took 11 ms to scan 1 urls, producing 17 keys and 28 values 
+2020-05-13 20:11:13,607 - 扫描到需自动注入的类，className->org.example.server.Server,beanName->StartService
+2020-05-13 20:11:13,608 - ------- 加载前提依赖 className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:11:13,612 - 扫描到需自动注入的类，className->org.example.server.HttpHandler,beanName->org.example.server.HttpHandler
+2020-05-13 20:11:13,613 - ------- 加载前提依赖 className->org.example.core.basic.BasicParamHandler,beanName->org.example.core.basic.BasicParamHandler
+2020-05-13 20:11:13,613 - ------- 加载前提依赖 className->org.example.core.basic.BasicFilter,beanName->org.example.core.basic.BasicFilter
+2020-05-13 20:11:13,661 - bean ->org.example.server.HttpHandler 加载成功
+2020-05-13 20:11:13,662 - bean ->StartService 加载成功
+2020-05-13 20:11:14,878 - 服务启动成功：端口->8080
+2020-05-13 20:11:16,811 - initChannel ch:[id: 0xae0dbc59, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60300]
+2020-05-13 20:11:16,811 - initChannel ch:[id: 0x420822c4, L:/0:0:0:0:0:0:0:1:8080 - R:/0:0:0:0:0:0:0:1:60301]
+2020-05-13 20:11:16,866 - class:io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest
+2020-05-13 20:11:16,876 - 进入defaultFilter中 metaData->RequestMetadata(uri=/test, method=POST, headers=DefaultHttpHeaders[Content-Type: application/json, User-Agent: PostmanRuntime/7.22.0, Accept: */*, Cache-Control: no-cache, Postman-Token: bf3d9384-7b3f-49fb-a2b4-f0e25db7a437, Host: localhost:8080, Accept-Encoding: gzip, deflate, br, Content-Length: 60, Connection: keep-alive], bodyJson={
+	"code":{
+		"test":1,
+		"name":[1,2]
+	},
+	"msg":"测试"
+}, queryParamsMap={name=[1]}, formParamsMap={})
